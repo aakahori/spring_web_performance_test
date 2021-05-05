@@ -35,7 +35,7 @@ class PerformanceControllerTests {
             call(path, COUNT);
             Stopwatch watch = Stopwatch.createStarted();
             call(path, COUNT);
-            if (serverWait == 0) continue;
+            //if (serverWait == 0) continue;
 
             System.out.printf("処理時間 %-7s サーバ %4d ms/回, クライアント %8s/%d回\n",
                     type, serverWait, watch, COUNT);
