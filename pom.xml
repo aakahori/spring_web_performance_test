@@ -17,10 +17,10 @@
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
+		<!--dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+		</dependency-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
@@ -44,11 +44,11 @@
 		</dependency>
 
 		<!-- add -->
-		<dependency>
+		<!--dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
 			<version>1.2.0</version>
-		</dependency>
+		</dependency-->
 		<dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>

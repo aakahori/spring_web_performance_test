@@ -22,7 +22,7 @@ class PerformanceControllerTests {
     @Test
     void test() throws InterruptedException {
 
-        proc("webmvc" , 0, 50, 100, 200, 500);
+        proc("webmvc" , 0, 50/*, 100, 200, 500*/);
         proc("webflux", 0, 50, 100, 200, 500, 1000);
     }
 
