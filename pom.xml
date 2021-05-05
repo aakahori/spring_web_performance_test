@@ -12,7 +12,7 @@
 	<artifactId>performance_web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>performance_web</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Performance test of Spring Boot with MVC/WebFlux</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
